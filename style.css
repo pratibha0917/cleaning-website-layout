@@ -1,0 +1,213 @@
+@media screen and (max-width:640px) {
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+}
+
+.button {
+  border-radius: 12%;
+  justify-content: left;
+  text-align: left;
+}
+
+/* home Page */
+.button1 {
+  font-size: 20px;
+  background-color: rgb(180, 22, 22);
+  width: 250px;
+  height: 50px;
+  justify-content: left;
+  border-radius: 20%;
+}
+
+.bg_image {
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+.text {
+  font-family: "Gilory", Sans-serif;
+  padding: 150px;
+  color: white;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+
+  line-height: 60px !important;
+  padding-left: 4%;
+}
+ @media  (max-width:768px){
+  .text h2,.text2{
+font-size: 15px;
+   }
+.button4{
+ padding-right: 80%;
+ right: 90%;
+ }
+ .card1{
+  float: right;
+ }
+ .what{
+   font-size: 10px;
+   justify-content: center;
+ }
+ .card3{
+  margin-top: 10%;
+ }
+ .foot{
+display: table-row;
+ }
+}
+
+
+ .line{
+  border-left: 2px solid black;
+  height: 30px;
+  position:absolute;
+  left: 65%;
+ }
+.navbar-nav {
+  margin-left: auto;
+  font-size: 20px;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.image3 {
+  background-image: url("home-about2 (1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  margin-left: 9%;
+  display: flex;
+}
+
+.row {
+  display: flex;
+
+
+}
+
+.row1 {
+  display: flex;
+
+}
+
+.card1 {
+  width: 120%;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 50%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 4%;
+  padding-left: 5%;
+  padding-top: 3%;
+
+}
+
+.card-body1 {
+  color: #CBCBCB;
+  font-family: "Graphik", Sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 26px
+}
+
+.card {
+  margin-bottom: 30px;
+  margin-left: 10%;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  padding: 1px;
+}
+
+.card-body {
+  background-size: cover;
+
+
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(10, 9, 9);
+
+}
+
+.card-body .btn {
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  text-decoration: none;
+  padding: 10px 24px;
+
+  font-size: 16px;
+}
+
+.btn3 {
+  border-radius: 25px;
+  background: #d42222;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 200px;
+}
+
+.page-footer {
+  background-color: rgb(80, 73, 73);
+  opacity: 100%;
+}
+
+.clients {
+  display: flex;
+}
+
+.box {
+  border: 5px;
+}
+
+.card2 {
+  width: 20%;
+  height: 3%;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+.card-body2 {
+  padding: 6px 6px 6px;
+  font-size: 15px;
+}
+
+.image4 {
+  background-image: url("van.jpg");
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  margin-left: 9%;
+  display: flex;
+}
+
+.service {
+  background-image: url("bg9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
